@@ -18,7 +18,7 @@ BeginLayer.prototype.init = function () {
 	})
 	playBtn.addListener('mousedown', function () {
 		// 跳转
-		// self.parent.playMusic('bgm')
+		self.parent.playMusic('bgm')
 		self.parent.gotoLayer('game')
 	}, true)
 	this.scene.add(playBtn)
